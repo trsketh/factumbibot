@@ -29,7 +29,7 @@ main_kb.add("\u2753 Частые вопросы", "\U0001F4AC Связаться
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
     await message.answer(
-        "Привет! Я — бот FACTUM BI.\n\nПомогаю бизнесу превращать данные в понятные дашборды и управленческие решения.\n\nЧто вас интересует?",
+        "Привет! Я — чат-бот Фактум BI.\n\nМы помогаем бизнесу превращать данные в понятные дашборды и управленческие решения.\n\nЧто вас интересует?",
         reply_markup=main_kb
     )
 
